@@ -1,0 +1,83 @@
+/* Instructions 
+
+*/
+
+/* 	Exercise 1 */
+
+/* 	Exercise 2 */
+
+/* 	Exercise 3 */
+
+/* 	Exercise 4*/
+
+/* 	Exercise 5 */
+
+/* 	Exercise 6 */
+
+/* 	Exercise 7 
+		Hint: Parent has collapsed.  
+*/
+
+/* 	Excercise 8
+		Hint: Parent has collapsed. 	
+ */
+
+/* 	Exercise 9 */
+
+/* 	Exercise 10 */
+
+/****************************
+	Do Not Edit Below Above This Line 
+****************************/
+
+/* Global Styling */ 
+
+#wrapper {
+	margin:0 auto;
+	width:960px;
+}
+
+#wrapper div {
+	background: #8E8E6C;
+	border: 1px dotted #3E6376;
+	height: 300px;
+	margin-bottom: 20px;
+}
+
+#wrapper div div {
+	background: #F15096;
+	border: 1px solid #fff;
+	color: #fff;
+	height: 50px;
+	line-height: 50px;
+	margin-bottom: 0;
+	text-align: center;
+	width: 50px;
+}
+
+/* Seven */
+#wrapper div#seven {
+	height: auto !important;
+}
+
+#seven #seven-a,
+#seven #seven-b,
+#seven #seven-c,
+#seven p {
+	float: left;
+}
+
+/* Eight */
+#wrapper div#eight {
+	height: auto !important;
+}
+
+#eight #eight-a,
+#eight #eight-b,
+#eight #eight-c,
+#eight p {
+	float: right;
+}
+
+
+

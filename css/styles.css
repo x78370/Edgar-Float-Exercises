@@ -1,0 +1,98 @@
+/* Instructions 
+
+*/
+
+/* 	Exercise 1 */
+#one-a, #one-b, #one-c {
+	float: left;
+}
+
+/* 	Exercise 2 */
+#two-a, #two-b, #two-c {
+	float: right;
+}
+/* 	Exercise 3 */
+#three-a {
+	float: both;
+}
+#three-b, #three-c {
+	float: left;
+}
+
+
+/* 	Exercise 4*/
+#four-a {
+	float: right;
+	clear: left;
+}
+#four-b {
+	float: right;
+	clear: right;
+}
+#four-c {
+	 float: right;
+}
+
+/* 	Exercise 5 */
+#five-a, #five-b {
+	float: left;
+}
+#five-c {
+	float: left;
+	clear: left;
+}
+
+/* 	Exercise 6 */
+#six-a {
+	float: right;
+}
+#six-b {
+	float: right;
+	clear: left;
+}
+#six-c {
+	float: right;
+	clear: right;
+}
+
+/* 	Exercise 7 
+		Hint: Parent has collapsed.  
+*/
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+
+/* 	Excercise 8
+		Hint: Parent has collapsed. 	
+*/
+
+/*Exercises 7&8 both used clearfix to fix collapsed parent*/
+
+
+/* 	Exercise 9 */
+#nine-a {
+	float: left;
+}
+#nine-b {
+	float: right;
+	clear: left;
+}
+#nine-c {
+	float: right;
+	clear: right;
+}
+
+#nine p {
+	clear: left;
+}
+
+/* 	Exercise 10 */
+#ten-a, #ten-b, #ten-c {
+	float: right;
+	clear: right;
+}
